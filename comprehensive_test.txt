@@ -1,0 +1,224 @@
+Subject: Python Fundamentals
+Total Marks: 32
+Duration: 45 minutes
+
+Instructions:
+- All questions are compulsory.
+- Each question carries 1 mark.
+- Choose the correct option for each question.
+
+---
+
+**Variables and Data Types**
+
+Q1. Which of the following is a valid variable name in Python?
+A) `2var`
+B) `my-var`
+C) `_my_var`
+D) `my var`
+Answer: C
+
+Q2. What is the data type of the value `10.5`?
+A) int
+B) float
+C) str
+D) bool
+Answer : B
+
+Q3. What will be the output of `type(True)`?
+A) `<class 'bool'>`
+B) `<class 'int'>`
+C) `<class 'str'>`
+D) `<class 'float'>`
+Answer : A
+
+Q4. What is the initial value of a variable that has not been assigned a value?
+A) 0
+B) `None`
+C) `False`
+D) It will raise an error
+Answer : D
+
+Q5. Which of the following is a mutable data type?
+A) str
+B) int
+C) list
+D) bool
+Answer : C
+
+**Operators**
+
+Q6. What is the result of `10 // 3`?
+A) 3.33
+B) 3
+C) 1
+D) 0
+Answer : B
+
+Q7. Which operator has the highest precedence?
+A) `+`
+B) `*`
+C) `**`
+D) `/`
+
+Answer : D
+
+Q8. What is the output of `5 % 2`?
+A) 2.5
+B) 2
+C) 1
+D) 0
+Answer : C
+
+Q9. What will the expression `(10 > 5) and (5 < 3)` evaluate to?
+A) `True`
+B) `False`
+C) `1`
+D) `0`
+Answer : B
+
+Q10. What is the output of `not True`?
+A) `True`
+B) `False`
+C) `1`
+D) `0`
+Answer : B
+
+**Strings**
+
+Q11. How do you get the length of a string `s`?
+A) `len(s)`
+B) `s.length()`
+C) `s.size()`
+D) `length(s)`
+Answer: A
+
+Q12. What is the output of `"Hello"[1]`?
+A) H
+B) e
+C) l
+D) o
+Answer: B
+
+Q13. How do you slice a string `s` to get all characters from the 2nd to the 4th position (inclusive)?
+A) `s[1:4]`
+B) `s[2:4]`
+C) `s[1:5]`
+D) `s[2:5]`
+Answer : D
+
+Q14. What is the output of `"Hello".upper()`?
+A) hello
+B) HELLO
+C) hELLO
+D) Hello
+Answer : B
+
+Q15. How do you check if a substring "world" is present in a string `s`?
+A) `"world" in s`
+B) `s.contains("world")`
+C) `s.find("world") != -1`
+D) `s.has("world")`
+Answer: B
+
+**Lists**
+
+Q16. How do you create an empty list?
+A) `[]`
+B) `()`
+C) `{}`
+D) `list()`
+Answer : A
+
+Q17. How do you add an element `x` to the end of a list `l`?
+A) `l.add(x)`
+B) `l.append(x)`
+C) `l.insert(x)`
+D) `l.push(x)`
+Answer: B
+
+Q18. How do you remove the first occurrence of the element `x` from a list `l`?
+A) `l.remove(x)`
+B) `l.pop(x)`
+C) `l.delete(x)`
+D) `del l[x]`
+Answer : A
+
+Q19. What is the output of `[1, 2, 3] + [4, 5, 6]`?
+A) `[1, 2, 3, 4, 5, 6]`
+B) `[[1, 2, 3], [4, 5, 6]]`
+C) `[5, 7, 9]`
+D) `[1, 4, 2, 5, 3, 6]`
+Answer: A
+
+Q20. How do you access the last element of a list `l`?
+A) `l[-1]`
+B) `l[last]`
+C) `l[len(l)]`
+D) `l[end]`
+Answer: A
+
+**Control Flow**
+
+Q21. Which keyword is used to start a conditional statement?
+A) `if`
+B) `for`
+C) `while`
+D) `def`
+Answer: A
+
+Q22. Which statement is used to execute a block of code repeatedly?
+A) `if`
+B) `for`
+C) `while`
+D) Both B and C
+Answer : D
+
+Q23. What does the `break` statement do?
+A) Exits the current loop
+B) Skips the current iteration of the loop
+C) Ends the program
+D) Raises an error
+Answer: A
+
+Q24. What does the `continue` statement do?
+A) Exits the current loop
+B) Skips the current iteration of the loop
+C) Ends the program
+D) Raises an error
+Answer: B
+
+Q25. What is the purpose of the `else` clause in a loop?
+A) It is executed if the loop condition is initially false.
+B) It is executed after the loop finishes normally (not by a `break`).
+C) It is executed in every iteration.
+D) It is not a valid clause in a loop.
+Answer: D
+
+**True/False**
+
+Q26. Python is a statically typed language. (True/False)
+Answer : False
+
+Q27. The `input()` function returns a string. (True/False)
+Answer: True
+
+Q28. A `for` loop can iterate over a string. (True/False)
+Answer: True
+
+Q29. The `pass` statement does nothing. (True/False)
+Answer: True
+
+**Fill in the Blanks**
+
+Q30. The `pop` method is used to remove the last element from a list.
+
+Q31. A `compile` error occurs when the code is syntactically correct but produces an incorrect result.
+
+**Code Completion**
+
+Q32. Complete the following code to print the numbers from 1 to 10:
+```python
+for i in range(1, 11):
+    print(i)
+```

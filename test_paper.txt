@@ -1,0 +1,80 @@
+Subject: Python Fundamentals
+Total Marks: 100
+Duration: 60 minutes
+
+Instructions:
+- All questions are compulsory.
+- Each question carries 10 marks.
+- Choose the correct option for each question.
+
+---
+
+Q1. What is the data type of the result of `10 // 3`?
+A) float
+B) int
+C) str
+D) bool
+Answer: B (int)
+
+Q2. Which of the following is an invalid variable name in Python?
+A) _my_var
+B) my_var_1
+C) 1_my_var
+D) myVar
+Answer : C
+
+Q3. What is the output of the following code: `my_string = "Hello World"; print(my_string[1:5])`
+A) ello
+B) ello 
+C) Hell
+D) elloW
+Answer : B
+
+Q4. Which operator is used for exponentiation in Python?
+A) ^
+B) **
+C) *
+D) %
+Answer : B
+
+Q5. What will be the output of `int(True)` and `int(False)`?
+A) 1 and 0
+B) 0 and 1
+C) True and False
+D) 1 and -1
+Answer: A
+
+Q6. What is the output of the following: `my_list = [1, 2, 3, 4, 5]; my_list.remove(3); print(my_list)`?
+A) [1, 2, 4, 5]
+B) [1, 2, 3, 4, 5]
+C) [1, 2, 5]
+D) [1, 3, 4, 5]
+Answer: A
+
+Q7. Which of the following data types is immutable?
+A) list
+B) dictionary
+C) set
+D) tuple
+Answer: C
+
+Q8. What is the output of the expression `True and False`?
+A) True
+B) False
+C) 1
+D) 0
+Answer: B
+
+Q9. What is the real part of the complex number `c = 10 + 20j`?
+A) 10
+B) 20
+C) 10j
+D) 20j
+Answer: A
+
+Q10. What is the correct way to add the element `6` to the end of a list named `my_list`?
+A) my_list.add(6)
+B) my_list.push(6)
+C) my_list.append(6)
+D) my_list.insert(6)
+Answer: C
